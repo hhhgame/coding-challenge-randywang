@@ -32,3 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## the asset page file is here: [packages/app/pages/[_asset_list.tsx](pages%2F_asset_list.tsx)ndex.tsx](packages/app/pages/index.tsx[_asset_list.tsx](pages%2F_asset_list.tsx))
+## add store file here: [packages/app/store](packages/app/store)
+## add ant design to app
