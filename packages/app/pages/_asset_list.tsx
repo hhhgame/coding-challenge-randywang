@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import Assets from '../components/assets-list';
 import StoreProvider from '../store/context';
-import Pools from '../components/pools-list';
 
 export default function Index() {
   return (
-    <>
-      <StoreProvider>
-        <Pools />
-      </StoreProvider>
-    </>
+    <StoreProvider>
+      <Assets />
+    </StoreProvider>
   );
 }
