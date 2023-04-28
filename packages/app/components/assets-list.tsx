@@ -45,11 +45,9 @@ function AssetsList() {
     ) : null;
   return (
     <div>
-      <p className="city">page: {page}</p>
-      <p>{store?.poll_list.length}</p>
-      <button onClick={() => store?.add_asset(store?.all_assets_list[0])}>
+      <Button onClick={() => store?.add_asset(store?.all_assets_list[0])}>
         add
-      </button>
+      </Button>
       <List
         loading={initLoading}
         itemLayout="horizontal"
